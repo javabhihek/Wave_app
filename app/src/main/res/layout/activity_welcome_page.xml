@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_sidemenu"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:background="#ACC7DD"
+            android:text="..."
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:text="Welcome"
+            android:textColor="#535050"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Get started with your account"
+            android:textColor="#838080"
+            android:textSize="20dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_join"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/signup_btn"
+            android:text="Join Meeting"
+            android:textAllCaps="false"
+            android:textColor="#201C1C"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

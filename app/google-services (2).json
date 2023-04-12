@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786156220199",
+    "project_id": "waveapp-14710",
+    "storage_bucket": "waveapp-14710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786156220199:android:9bed866e64d77672580302",
+        "android_client_info": {
+          "package_name": "com.example.zoom_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786156220199-sv6bq2e5sf2a8mrru0siejmteccf38hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDi7zCMne_h_VewxzhesdZTa2LejKqvZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786156220199-sv6bq2e5sf2a8mrru0siejmteccf38hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Terms_Condition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Our Terms and Conditions"
+                android:textAlignment="center"
+                android:textColor="#333"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="A Terms and Conditions agreement is where you let the public know the terms, rules and guidelines for using your website or mobile app. They include topics such as acceptable use, restricted behavior and limitations of liability. This article will get you started with creating your own custom Terms and Conditions agreement. We've also put together a Sample Terms and Conditions Template that you can use to help you write your own."
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="                   A Terms and Conditions agreement acts as a legal contract between you (the company) and the user. It's where you maintain your rights to exclude users from your app in the event that they abuse your website/app, set out the rules for using your service and note other important details and disclaimers.Having a Terms and Conditions agreement is completely optional. No laws require you to have one. Not even the super-strict and wide-reaching General Data Protection Regulation (GDPR). Your Terms and Conditions agreement will be uniquely yours. While some clauses are standard and commonly seen in pretty much every Terms and Conditions agreement, it's up to you to set the rules and guidelines that the user must agree to. Terms and Conditions agreements are also known as Terms of Service or Terms of Use agreements. These terms are interchangeable, practically speaking.\n\n Creating a Terms and Conditions agreement is crucially important for practically any business, whatever its turnover, industry, or target market. But the topic can leave people with many questions. \n\nIn this article, we're going to address some of the most common questions that business owners have about Terms and Conditions.\n\nWe reserve the right to change this Privacy Policy at any time.  In the event we make changes to this Privacy Policy, such policy will be re-posted in the “Privacy” section of our Site with the date such modifications were made indicated on the top of the page or we may contact you to inform you about the revisions with a link to the revised Privacy Policy.  All changes are effective on the date listed at the top of this page and will apply to all information that we have about you.  Your continued use of the Site or the services that we provide (“Services”) after any change is posted indicates your acceptance of the changes and your continued consent to our processing of your personal data.  If at any point you do not agree to any portion of this Privacy Policy then in effect you should immediately stop using the Site and the Services. Because this Privacy Policy contains legal obligations we encourage you to review this Privacy Policy carefully. "
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_agree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/join_btn"
+                android:text="I Agree"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.zoom_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="WAVE"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zoom_app"
+        tools:replace="android:label"
+        tools:targetApi="31">
+        <activity
+            android:name=".sidemenu"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_page"
+            android:exported="false" />
+        <activity
+            android:name=".Terms_Condition"
+            android:exported="false" />
+        <activity
+            android:name=".User_profile"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".zoom"
+            android:exported="false" />
+        <activity
+            android:name=".Starta_meeting"
+            android:exported="false" />
+        <activity
+            android:name=".meeting_screen"
+            android:exported="false" />
+        <activity
+            android:name=".ForotScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SettingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
